@@ -1,0 +1,562 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap);
+.navbar-brand {
+  color: #e4f2f0 !important;
+}
+
+.nav-link {
+  color: #fdf6e3 !important;
+  font-family: "Inconsolata";
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: #64ffda !important;
+  font-family: "Inconsolata";
+}
+
+.fa {
+  color: #fdf6e3;
+  font-size: 1.1rem !important;
+}
+
+.resume-button {
+  border: 1px solid #fdf6e3;
+  border-radius: 5px;
+}
+
+.resume-button:hover {
+  background-color: rgba(100, 255, 218, 0.09);
+}
+
+.intro {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.main-text {
+  margin-left: 30px;
+}
+
+.hi {
+  margin-top: 13vh;
+  font-size: 1.2rem;
+}
+
+.name {
+  font-family: "DM Serif Display";
+  color: #839496;
+  font-size: 5rem;
+  margin-bottom: -10px;
+}
+
+.intro-title {
+  font-family: "DM Serif Display";
+  color: #586e75;
+  font-size: 3.5rem;
+}
+
+.intro-text {
+  font-family: "DM Serif Display";
+  color: #839496;
+  font-size: 1.5rem;
+  width: 50vw;
+  margin-top: 50px;
+}
+
+.mail-button {
+  color: #64ffda !important;
+  border: 1px solid #64ffda;
+}
+
+.mail-button:hover {
+  background-color: rgba(100, 255, 218, 0.09);
+}
+
+.about-top {
+  margin-top: 15vh;
+  margin-left: 15px;
+}
+
+.about {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.about-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.about-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.text {
+  width: 60vw;
+}
+
+.about-me-text {
+  margin-top: 50px;
+}
+
+.about-me-paragraph {
+  font-family: "Noto Sans JP";
+  font-size: 1.2rem;
+  color: #93a1a1;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.photo {
+  /*filter: blur(20px);*/
+  opacity: 0.7;
+  margin-top: 10vh;
+  width: 80vw;
+  border-color: #64ffda !important;
+  margin-left: -10px;
+  transition-duration: 0.8sec;
+}
+
+.photo:hover {
+  opacity: 1;
+  box-shadow: 0 0 3px 2px #64ffda;
+}
+
+.skills {
+  color: #93a1a1;
+  margin-left: 15px;
+}
+
+.skill-icon {
+  color: #64ffda !important;
+  margin-right: 5px;
+}
+
+@media (max-width: 750px) {
+  .photo {
+    margin-left: 30px;
+  }
+}
+
+.education-top {
+  margin-top: 15vh;
+  margin-left: 15px;
+}
+
+.education {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.education-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.education-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.icon {
+  column-width: 10px;
+}
+
+.college {
+  margin-top: 50px;
+  color: #93a1a1;
+  font-family: "Noto Sans JP";
+  margin-left: 25px;
+}
+
+.college-name {
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+
+.college-title {
+  font-size: 1.2rem;
+}
+
+.college-degree {
+  font-size: 1rem;
+}
+
+.v {
+  border-left: 1px solid #93a1a1;
+  height: 24.7vh;
+  margin-left: 60%;
+}
+
+ul {
+  list-style: none;
+}
+
+.certificates {
+  color: #93a1a1;
+  margin-left: 25px;
+}
+
+.certificate {
+  margin-top: 50px;
+}
+
+.certificate-name {
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+
+.certificate-institute {
+  font-family: "Roboto";
+  font-size: 1.3rem;
+  margin-top: -20px;
+}
+
+.table {
+  color: #93a1a1;
+  margin-top: -20px;
+  font-size: 0.9rem;
+}
+
+td {
+  width: 10%;
+}
+
+.skill-icon {
+  margin-right: 5px;
+}
+
+.work-top {
+  margin-top: 15vh;
+  margin-left: -5px; /*we had a padding of 20 for this section*/
+}
+
+.works {
+  background-color: #073642;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.work-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.work-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.project {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 20px !important;
+  color: #839496;
+}
+
+.tool {
+  margin-right: 10px;
+  font-family: "Inconsolata";
+}
+
+.badge {
+  background-color: #2aa198 !important;
+  color: #fdf6e3;
+}
+
+/*need update for mobile view*/
+.project-img-left {
+  opacity: 0.7;
+  position: absolute;
+  width: 60vw;
+  left: 20px;
+}
+
+.project-img-right {
+  opacity: 0.7;
+  position: absolute;
+  width: 60vw;
+  right: 20px;
+}
+
+.project-img-left:hover,
+.project-img-right:hover {
+  opacity: 1;
+}
+
+.project-description {
+  margin-top: 40vh;
+  width: 40vw;
+}
+/*need update for mobile view*/
+
+.project-title-link {
+  color: #839496 !important;
+}
+
+.project-title-link:hover {
+  text-decoration: none !important;
+  color: #64ffda !important;
+}
+
+.project-link {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.project-link-icon {
+  font-size: 1.7rem !important;
+}
+
+.card {
+  background-color: transparent !important;
+}
+
+.card-body {
+  background-color: #002b36 !important;
+  font-family: "Roboto Mono";
+}
+
+.card-header {
+  background-color: transparent !important;
+}
+
+.card-header h4 {
+  font-family: "DM Serif Display";
+}
+
+.card-header p {
+  font-family: "Inconsolata";
+  color: #64ffda !important;
+}
+
+.card-footer {
+  background-color: transparent !important;
+}
+
+@media (max-width: 750px) {
+  .project-img-left,
+  .project-img-right {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .project-description {
+    width: 90vw;
+  }
+}
+
+.other-projects {
+  margin-bottom: 50px;
+}
+
+.other-project-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+}
+
+.other-project-text {
+  font-family: "Roboto Mono";
+  color: #839496;
+}
+
+.other-project-card {
+  color: #839496 !important;
+  background-color: #002b36 !important;
+}
+
+.other-project-card:hover {
+  border-color: #64ffda;
+  box-shadow: 0 0 3px 2px #64ffda;
+}
+
+@media (max-width: 750px) {
+  .other-projects {
+    width: 85vw !important;
+  }
+}
+
+.contact-top {
+  margin-top: 15vh;
+  margin-left: 15px;
+}
+
+.contact {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.contact-title {
+  font-family: "DM Serif Display";
+  color: #839496;
+  width: 500px;
+  font-size: 3rem;
+  border-bottom: 1px solid #839496;
+  line-height: 0.1em;
+}
+
+.contact-title-text {
+  background: #073642;
+  padding: 0 10px;
+}
+
+.contact-card {
+  background-color: transparent !important;
+  width: 70%;
+  margin-top: 20vh;
+  margin-left: 10vw;
+}
+
+.contact-text {
+  font-family: "Roboto Mono";
+  color: #839496;
+}
+
+.hello-button {
+  color: #64ffda;
+  border-color: #64ffda;
+}
+
+.hello-button:hover {
+  color: #64ffda;
+  border-color: #64ffda;
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.contact-details {
+  margin-bottom: 200px;
+}
+
+.page-footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.page-footer a {
+  color: #586e75;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.side-bar {
+  background-color: #073642;
+  min-height: 88vh;
+  overflow: hidden;
+}
+
+.fa {
+  font-size: 1.3rem !important;
+  transition-duration: 0.5s;
+  color: #93a1a1;
+}
+
+.fa:hover {
+  font-size: 1.5rem !important;
+  color: #64ffda !important;
+  cursor: pointer;
+}
+
+/*sticky sidebar left*/
+.social-icons {
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 35px;
+}
+
+.single-social {
+  margin-bottom: 20px;
+  margin-left: 50%;
+}
+
+.v1 {
+  border-left: 1px solid #93a1a1;
+  height: 24.7vh;
+  margin-left: 20px;
+}
+
+/*sticky sidebar right*/
+.mail-group {
+  position: fixed;
+  bottom: 0;
+}
+
+.v2 {
+  border-left: 1px solid #93a1a1;
+  height: 25vh;
+  margin-left: 10px;
+}
+
+.mail-address {
+  font-family: Inconsolata;
+  font-size: 1.1rem;
+  color: #93a1a1;
+  cursor: pointer;
+  writing-mode: vertical-rl;
+  margin-bottom: 20px;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.mail-address:hover {
+  font-family: Inconsolata;
+  font-size: 1.15rem;
+  color: #64ffda;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .social-panel {
+    display: none;
+  }
+
+  .mail-panel {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .v1 {
+    display: none;
+  }
+
+  .v2 {
+    display: none;
+  }
+}
+
